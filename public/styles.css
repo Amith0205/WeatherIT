@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: whitesmoke;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: rgba(96, 224, 138, 0.884);
+    margin: auto -16px;
+    padding: 10px 22px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+  
+header h1 {
+    color: black;
+    font-family: "Roboto";
+    font-weight: 200;
+    text-align: center;
+    font-size: 50px;
+}
+
+.data{
+    font-family: 'Roboto', sans-serif;
+    width: 70%;
+    padding: 10px;
+    height:100%;
+    text-align: center;
+    background-color: whitesmoke;
+    color: rgba(8, 98, 38, 0.884);
+    align-self: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.submit-btn {
+    width: 50px;
+    height: 38px;
+    background-color: rgba(8, 98, 38, 0.884);
+    color: whitesmoke;
+    border: none;
+    display: block;
+    margin: 10px auto;
+}
+
+#cityInput{
+    width: 200px;
+    height: 38px;
+    display: block;
+    margin: 0 auto;
+}
+.icon {
+    background-color: darkgray;
+    border-radius: 100%;
+}

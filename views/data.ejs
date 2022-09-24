@@ -1,0 +1,13 @@
+<%- include("partials/header") -%>
+
+<div class="jumbotron jumbotron-fluid data">
+    <div class="container">
+      <h1 class="display-4">Weather in <%= queryCity %></h1>
+      <p class="lead">Currently  <%= weatherDesc %></p>
+      <p class="lead">Temperature in  <%= queryCity %>  is  <%= cityTemp %> Degrees Celcius</p>
+      <img class="icon" src="<%= imgSRC %>" />
+      <button class="data submit-btn" onclick="history.back()" style="width:100px;height: fit-content;">Go Back</button>
+    </div>
+  </div>
+
+<%- include("partials/footer") -%>
